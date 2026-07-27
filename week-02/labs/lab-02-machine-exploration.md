@@ -91,7 +91,7 @@ The process list updates constantly and can be hard to read while it's jumping a
 Look at the current CPU usage percentage.
 
 ```
-Current CPU usage: ____%
+Current CPU usage: 33%
 ```
 
 ### Step 5 — Record Memory Usage
@@ -99,7 +99,7 @@ Current CPU usage: ____%
 Find how much RAM is currently in use, out of your total installed RAM (the same total you looked up in Part A).
 
 ```
-RAM in use: ____   out of total: ____
+RAM in use: 15GB out of total: 16GB
 ```
 
 ### Step 6 — List Five Running Processes
@@ -121,11 +121,11 @@ List five processes running right now. For each, write your best guess at what i
 | launchd | Mac | The very first process Mac starts — manages and launches other background services |
 
 ```
-1. Process name: __________   What I think it does: __________
-2. Process name: __________   What I think it does: __________
-3. Process name: __________   What I think it does: __________
-4. Process name: __________   What I think it does: __________
-5. Process name: __________   What I think it does: __________
+1. Process name: System   What I think it does: Runs the OS
+2. Process name: Desktop Window Manager   What I think it does: Runs Task Manager
+3. Process name: ChromaVisuializer   What I think it does: Operates my fancy mouse and keyboard
+4. Process name: RiotClient   What I think it does: Runs League of Legends
+5. Process name: Google Chrome   What I think it does: Runs Google Chrome
 ```
 
 ### Step 7 — Screenshot and Embed
@@ -152,7 +152,7 @@ Take a screenshot of Task Manager or Activity Monitor showing your CPU/memory us
 In your own words, explain how the real numbers you found in Part A (OS version, RAM, storage) relate to what you just watched live in Part B. Which number describes hardware, and which describes the OS?
 
 ```
-(your answer here — minimum 2 sentences)
+When you understand how the computer works and all of the background processes that go into make a PC function then you can see how your memory spikes to higher percentages because of all the programs being opened and how the CPU percentages follow. Part A shows us briefly the capabilities of the hardware while the fluctuating numbers in B show us how the software affects the system. 
 ```
 
 ---
@@ -164,7 +164,7 @@ In your own words, explain how the real numbers you found in Part A (OS version,
 Pick one process from your list in Part B, Step 6. Is it "software" in the sense Lab 01 used that word? Explain how it depends on the OS and on hardware to actually run.
 
 ```
-(your answer here — minimum 3 sentences)
+ChromaVisualizer - It needs the OS to run because without the OS it would recognize the program or the firmware to send commands through the interface.
 ```
 
 ### Analysis Question 2
@@ -172,15 +172,14 @@ Pick one process from your list in Part B, Step 6. Is it "software" in the sense
 Your CPU usage number changes constantly, even when you're not doing anything. Explain, in your own words, why watching this number matters for security work — not just for performance. (Hint: think about what it might mean if a process you don't recognize suddenly spikes CPU usage.)
 
 ```
-(your answer here — minimum 3 sentences)
-```
+CPU usage isn't just a performance gauge — it's a window into what's actually running on your machine, and that makes it a security signal too. So if you were to see an unrecognized command suddenly pop up along with a spike in CPU without activity to match it then you're most likely dealing with an attack.
 
 ### Analysis Question 3
 
 Compare what you saw in Task Manager/Activity Monitor to the diagram you built in Lab 01. What's the same? What did watching your machine live show you that a static diagram couldn't?
 
 ```
-(your answer here — minimum 3 sentences)
+My diagram was overall extremely simple. It showed a low-level overview of general components and how they make a PC run. Actually watching a PC run and seeing the extensive number of proceses and softwares that quiet run in the background along with the hardware components that support it would be difficult to put into a diagram.
 ```
 
 ---
