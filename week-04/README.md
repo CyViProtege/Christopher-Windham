@@ -1,0 +1,1 @@
+Understanding file permissions in Linux and Windows command lines. Granting and revoking privileges and applying the Gatekeepers Rule. Submitting our first deliverable by provisioning a virtual machine. 
